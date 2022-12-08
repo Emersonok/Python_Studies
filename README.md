@@ -1,15 +1,4 @@
 # Python_Studies
-#printing the max/min value in list
-
-grades = [30, 7, 90, 10, 10, 2]
-max = grades[0]
-min = grades [0]
-
-for x in grades:
-    if x > max:
-        max = x
-    if x < min:
-        min = x
-
-print(f"The highest grade is {max} and the lowest grade is {min}")
+1. TRAPPING RAIN WATER PROBLEM
+Find the maximun value on the left and the maximum value on the right. Pick the mininum of the two values and substract it by one. The answer is the capacity of the container. For example, [3, 4], the capacity is 2. [1, 3], the capacity is 0. 
 
