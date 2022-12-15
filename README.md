@@ -18,3 +18,7 @@ Arrays are dynamic Data Structures, assume all items have different memories
 Lists are static data structures, all items have the same memory allocation, we don't have random access
 Running time depends on activities of the users, it's not predictable.
 Predictability is an important feature of an application
+Linked Lists need more memory than arrays
+Advantage is there can't be holes, no need shifting items as done in arrays.
+Node stores data itself and a reference to the next node, the last node points to NULL
+We can only access the head node, to access other items of the Linked list, we need to start from the head node and follow the references until we find the node we're looking for
