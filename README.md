@@ -22,7 +22,11 @@ Linked Lists need more memory than arrays
 Advantage is there can't be holes, no need shifting items as done in arrays.
 Node stores data itself and a reference to the next node, the last node points to NULL
 We can only access the head node, to access other items of the Linked list, we need to start from the head node and follow the references until we find the node we're looking for
+We are not able to get the previous node, can only get the next node, so you have to store a reference to the previous node
 
 # Data Structures
 Everything needs to be created, unless it exists internally
+Create functions for each activity
+First algorithm should return 0 if list is empty or = 0
+
 
