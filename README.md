@@ -5,6 +5,18 @@ If the number of bars is less than 3, then it can't trap any water. The first an
 
 
 # Linked Lists
+Steps:
+1- create Node Class with a func that contains data and next node variables
+2- Another func to return data as string
+3- Next create Linked List Class that contains a func of the head node (self.head) and number of nodes variables
+Create insertion, Steps
+Insertion at start is 0(N) running time
+1- Count num of nodes as += 1
+2- Create a variable to contain the data (newNode = Node(data)
+3- If head is none, then self.head = newnode
+4- Else, newnode + nextnode = self.head
+5- update references (self.head = newnode)
+
 Used to store items efficiently
 Need to know the index of array, very inmportant
 Start with the head node, first one. Last node is null

@@ -80,6 +80,8 @@ class LinkedList:
 
     
 
+    
+
 
 linked_list = LinkedList()
 linked_list.insert_start(10)
