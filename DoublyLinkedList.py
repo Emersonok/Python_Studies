@@ -9,8 +9,10 @@ class Node:
 class DoublyLinkedList:
 
     def __init__(self):
-        self.head = None #First node of the lidt
+        self.head = None #First node of the list
         self.tail = None #last node/item of the list
+
+    
 
     def insert(self, data): #to insert at the end of linked list, to manipulate the tail node
         new_node = Node(data) #the item to be inserted is called new node
@@ -42,6 +44,7 @@ linked_list = DoublyLinkedList()
 linked_list.insert(1)
 linked_list.insert(2)
 linked_list.insert(3)
+
 
 linked_list.traverse_backward()
 linked_list.traverse_forward()
