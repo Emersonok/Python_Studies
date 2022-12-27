@@ -42,3 +42,19 @@ Create functions for each activity
 First algorithm should return 0 if list is empty or = 0
 
 
+# STACKS
+
+# pop()- remove the last item inserted, 
+# push()- push a new item unto the stack, 
+# peek - get the value of last item without removing it()
+Last in first out (LIFO) - Stacks have this
+# Real Life Application: 
+   Every visited URL in a browser is pushed into a stack Abstract Data Type and with the help of buttons, we're able to pop the recently visited URLs
+
+   Undo operation in softwares
+
+   Stack Memory stores local variables and function calls
+
+In general, stacks store the previous items stored, so that when you pop the current item, you can access the previous item
+
+
