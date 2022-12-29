@@ -57,4 +57,5 @@ Last in first out (LIFO) - Stacks have this
 
 In general, stacks store the previous items stored, so that when you pop the current item, you can access the previous item
 
-
+# Python
+print("Your Band name is " + input("Write your city name \n") + input("What is your gender \n") ) #Giving a band name
