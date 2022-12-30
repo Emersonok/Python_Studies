@@ -59,3 +59,18 @@ In general, stacks store the previous items stored, so that when you pop the cur
 
 # Python
 print("Your Band name is " + input("Write your city name \n") + input("What is your gender \n") ) #Giving a band name
+
+print("Welcome to the Band name generator")
+City = input("What's the name of the city you grew up in?\n")
+Pet = input("What's the name of your pet?\n")
+print(f"Your Band name could be {City} {Pet}")
+
+name = len(input("What is your name? "))
+namer = str(name) #convert types of data (int to str)
+print("Your name has " + namer + " Characters")
+
+# Mathematical operations
++, -, *, /
+** = exponent
++=, -=, *=, /= ; to manipulate a value based on previous values 
+   

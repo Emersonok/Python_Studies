@@ -1,5 +1,8 @@
-print("Welcome to the Band name generator")
-City = input("What's the name of the city you grew up in?\n")
-Pet = input("What's the name of your pet?\n")
-print(f"Your Band name could be {City} {Pet}")
-   
+two_digit_number = input("Type a two digit number: ")
+first_digit = two_digit_number[0]
+second_digit = two_digit_number[1]
+new_first_digit = int(first_digit)
+new_second_digit = int(second_digit)
+print(new_first_digit + new_second_digit)
+
+
