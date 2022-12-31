@@ -1,18 +1,30 @@
 print("Welcome to the Roller Coaster! Follow the instructions")
 name = input("What is your name? ")
 height = int(input("What is your height in cm? "))
+bill = 0 # use 0 to attribute a first value that can change
 
 if height > 120:
     print(f"Hi {name}! Your height is {height}, welcome to the Roller Coaster")
     age = int(input("How old are you? "))
-    if age >= 18 and age <= 60:
-        print(f"Your ticket is $12. Thanks {name}!")
-    elif age > 60:
-        print(f"Hi {name}, you are too old for this, please go home and rest!!")
+    if age >= 45 and age <= 55:
+        bill = 0
+        print("Free ticket for you") 
+
+    if age > 55:
+        bill = 12
+        print(f"Adult ticket is $12. Thanks {name}!")
+    
     elif age < 12:
-        print(f"Your ticket is $5. Thanks {name}!")
+        bill = 5
+        print(f"Kids ticket is $5. Thanks {name}!")
     else:
-        print(f"Your ticket is $7. Thanks {name}!")
+        bill = 7
+        print(f"Youth is $7. Thanks {name}!")
+
+    photo = input("Do you want a photo? Y or N ")
+    if photo == "Y":
+        bill += 3
+    print(f"Your final bill is ${bill}")
 
 
 else:
