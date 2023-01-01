@@ -73,4 +73,14 @@ print("Your name has " + namer + " Characters")
 +, -, *, /
 ** = exponent
 +=, -=, *=, /= ; to manipulate a value based on previous values 
+
+# Add an Item to python list
+Use .append
+ex: states_nigeria.append("Biafra") this will add Biafra to your states_nigeria list.
+
+# Change value of an item on python list
+states_nigeria[3] = "Biafra"
+
+# Add list to list
+Use .extend
    

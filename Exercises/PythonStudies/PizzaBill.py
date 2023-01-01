@@ -18,7 +18,7 @@ if size == "S":
 
 if size == "M":
     bill = 20
-    print(f"Mesium pizza costs ${bill}")
+    print(f"Medium pizza costs ${bill}")
     if add_pepperoni == "Y":
         bill += 3
         print(f"With pepperoni, bill is ${bill}")
