@@ -83,4 +83,6 @@ states_nigeria[3] = "Biafra"
 
 # Add list to list
 Use .extend
+
+Random.choice()
    
