@@ -85,4 +85,10 @@ states_nigeria[3] = "Biafra"
 Use .extend
 
 Random.choice()
+
+# Find index of words in a list
+
+list = [man, woman, boy, girl]
+position = list.index(man) # this way I can get an int 1 which is position of man in list
+
    
